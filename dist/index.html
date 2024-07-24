@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="flex justify-center items-center h-screen font-inter flex-col">
+    <div id="container" class="bg-neutral-300 text-neutral-800 flex justify-center items-center flex-col px-12 py-8 rounded-xl">
+        <h1 class="text-4xl font-medium">To-Do list</h1>
+        <div class="flex items-center mt-4">
+            <div class="max-w-sm space-y-3">
+                <input id="taskInput" type="text" class="px-2 py-2 mr-4 border-gray-200 rounded-lg" placeholder="Enter task">
+            </div>
+            <button id="addButton" class="border-gray-200 rounded-lg">Enter</button>
+        </div>
+        <div id="task_container" class="mt-2 w-full flex justify-start-start flex-col">
+        </div>
+    </div>
+    <script src="/dist/javascript.js"></script>
+</body>
+</html>
